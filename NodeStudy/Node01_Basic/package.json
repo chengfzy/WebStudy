@@ -1,0 +1,11 @@
+{
+    "name": "node01_basic",
+    "version": "1.0.0",
+    "description": "Node 01 Basic",
+    "main": "src/cjs/index.cjs",
+    "scripts": {
+        "dev:cjs": "node src/cjs/index.cjs"
+    },
+    "author": "Jeffery Cheng",
+    "license": "MIT"
+}
