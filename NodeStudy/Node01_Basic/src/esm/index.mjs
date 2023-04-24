@@ -16,3 +16,10 @@ console.log(typeof m)
 console.log(Object.keys(m))
 m.foo()
 console.log(m.bar)
+
+
+import md5 from "md5";
+
+const before = 'Hello World'
+const after = md5(before)
+console.log({ before, after })

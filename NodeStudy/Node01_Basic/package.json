@@ -5,9 +5,12 @@
     "main": "src/cjs/index.cjs",
     "scripts": {
         "dev:cjs": "node src/cjs/index.cjs",
-        "dev:esm": "node src/cjs/index.mjs",
+        "dev:esm": "node src/esm/index.mjs",
         "server": "node server/index.js"
     },
     "author": "Jeffery Cheng",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "md5": "^2.3.0"
+    }
 }
