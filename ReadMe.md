@@ -24,3 +24,8 @@ Some study code about HTML
     - `./server`: 搭建服务器, [在浏览器中访问 ESM](https://vue3.chengpeiquan.com/guide.html#%E5%9C%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E9%87%8C%E8%AE%BF%E9%97%AE-esm)
 
     运行时如果出现包找不到的情况, 需要使用命令`npm update`来更新包
+
+## Vue Study
+
+1. vue01_basic
+   vue 简单使用, 参考https://cn.vuejs.org/guide/introduction.html. 对`npm init vue@latest`中生成的代码进行了删减, 方便进行最简单语法的学习
