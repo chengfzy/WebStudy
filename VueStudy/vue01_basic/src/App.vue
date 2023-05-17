@@ -2,7 +2,7 @@
   <button @click="increment">Count is: {{ count }}</button>
 </template>
 
-<script>
+<script type="module">
 export default {
   data () {
     return {
