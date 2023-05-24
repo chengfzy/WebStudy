@@ -29,3 +29,6 @@ Some study code about HTML
 
 1. vue01_basic
    vue 简单使用, 参考https://cn.vuejs.org/guide/introduction.html. 对`npm init vue@latest`中生成的代码进行了删减, 方便进行最简单语法的学习
+   Ref:
+    1. https://www.runoob.com/vue3/vue3-directives.html
+    1. https://cn.vuejs.org/guide/essentials/template-syntax.html
