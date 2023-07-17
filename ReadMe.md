@@ -32,3 +32,5 @@ Some study code about HTML
    Ref:
     1. [菜鸟教程](https://www.runoob.com/vue3/vue3-directives.html)
     1. https://cn.vuejs.org/guide/essentials/template-syntax.html
+1. vue02_components
+    1. vue组件, https://www.runoob.com/vue3/vue3-components.html
