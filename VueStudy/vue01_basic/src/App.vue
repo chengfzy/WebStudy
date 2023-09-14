@@ -17,8 +17,20 @@
     <img :src="imageSrc">
 
     <h2>v-if, v-else</h2>
+    <h3>example 01</h3>
     <p v-if="showMessage">Hello Vue!</p>
     <p v-else>Goodbye Vue!</p>
+    <h3>example 02</h3>
+    <template v-if="showMessage">
+        <h4>网站</h4>
+        <p>Google</p>
+        <p>Youtube</p>
+    </template>
+    <template v-else>
+        <h4>WebSite</h4>
+        <p>Github</p>
+        <p>Gitlab</p>
+    </template>
 
     <h2>v-for</h2>
     <h3>01</h3>
