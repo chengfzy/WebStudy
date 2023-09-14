@@ -25,12 +25,19 @@ Some study code about HTML
 
     运行时如果出现包找不到的情况, 需要使用命令`npm update`来更新包
 
+## EChart Study
+
+一些简单的[ECharts](https://echarts.apache.org/zh/index.html)使用
+
+1. ECharts01.html, 基本的应用
+1. ECharts02.html, 异步加载数据
+
 ## Vue Study
 
 1. vue01_basic
    vue 简单使用, 参考https://cn.vuejs.org/guide/introduction.html. 对`npm init vue@latest`中生成的代码进行了删减, 方便进行最简单语法的学习
    Ref:
-    1. [菜鸟教程](https://www.runoob.com/vue3/vue3-directives.html)
-    1. https://cn.vuejs.org/guide/essentials/template-syntax.html
+   1. [菜鸟教程](https://www.runoob.com/vue3/vue3-directives.html)
+   1. https://cn.vuejs.org/guide/essentials/template-syntax.html
 1. vue02_components
-    1. vue组件, https://www.runoob.com/vue3/vue3-components.html
+   1. vue 组件, https://www.runoob.com/vue3/vue3-components.html
