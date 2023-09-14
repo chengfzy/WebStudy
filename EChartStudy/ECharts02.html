@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>EChart Study 01</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <div id="main" style="width: 600px; height: 400px;"></div>
+    <script type="text/javascript">
+        var myChart = echarts.init(document.getElementById('main'));
+        myChart.showLoading();
+
+        $.get('https://www.runoob.com/static/js/echarts_test_data.json', function(data){
+            myChart.hideLoading();
+            myChart.setOption({
+                series:[{
+                    name:'访问来源',
+                    type:'pie',
+                    radius: '55%',
+                    data: data.data_pie
+                }]
+            })
+        },'json')
+    </script>
+</body>
+
+</html>
