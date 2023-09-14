@@ -25,7 +25,7 @@ Some study code about HTML
 
     运行时如果出现包找不到的情况, 需要使用命令`npm update`来更新包
 
-## EChart Study
+## ECharts Study
 
 一些简单的[ECharts](https://echarts.apache.org/zh/index.html)使用
 
