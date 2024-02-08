@@ -32,6 +32,15 @@ Some study code about HTML
 1. ECharts01.html, 基本的应用
 1. ECharts02.html, 异步加载数据
 
+# AxiosStudy
+
+使用[Axios](https://www.axios-http.cn/)
+
+1. AxiosStudy01
+   - 最简单的使用, [参考](https://zhuanlan.zhihu.com/p/638192980), 借鉴了一些官方的文档
+   - 这里使用了[Apifox](https://apifox.com/)的示例项目来学习, 避免跨域的问题
+   - 运行`node ./axios01.js`
+
 ## Vue Study
 
 1. vue01_basic

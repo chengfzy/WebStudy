@@ -132,3 +132,4 @@ dist
 # others
 .vscode
 package-lock.json
+pnpm-lock.yaml
